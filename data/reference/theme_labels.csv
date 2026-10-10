@@ -1,0 +1,15 @@
+theme_code,theme_name,short_label
+GOVE,Government and public sector,Government
+ECON,Economy and finance,Economy and finance
+REGI,Regions and cities,Regions and cities
+AGRI,"Agriculture, fisheries, forestry and food",Agriculture and food
+SOCI,Population and society,Population and society
+EDUC,"Education, culture and sport","Education, culture, sport"
+ENVI,Environment,Environment
+JUST,"Justice, legal system and public safety",Justice and safety
+TRAN,Transport,Transport
+HEAL,Health,Health
+ENER,Energy,Energy
+TECH,Science and technology,Science and technology
+INTR,International issues,International issues
+NONE,No theme,No theme

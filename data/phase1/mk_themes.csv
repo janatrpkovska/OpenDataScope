@@ -1,0 +1,15 @@
+theme_code,theme_name,datasets,share_of_datasets_pct,snapshot_id
+GOVE,Government and public sector,312,40.6,S2
+ECON,Economy and finance,171,22.3,S2
+REGI,Regions and cities,73,9.5,S2
+AGRI,"Agriculture, fisheries, forestry and food",56,7.3,S2
+SOCI,Population and society,55,7.2,S2
+EDUC,"Education, culture and sport",52,6.8,S2
+ENVI,Environment,39,5.1,S2
+JUST,"Justice, legal system and public safety",32,4.2,S2
+TRAN,Transport,13,1.7,S2
+HEAL,Health,7,0.9,S2
+ENER,Energy,7,0.9,S2
+TECH,Science and technology,3,0.4,S2
+INTR,International issues,1,0.1,S2
+(none),No theme,115,15.0,S2

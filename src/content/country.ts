@@ -1,0 +1,38 @@
+// Portal detail pages. No statistics.
+export const COUNTRY_COPY = {
+  breadcrumbRoot: "Portals",
+  classGroup: { national: "National portals", aggregator: "EU aggregator", regional_context: "Regional context" },
+  contextBanner: "Regional context only: not part of the core comparison.",
+  officialSite: "Official portal",
+  size: "Catalogue size",
+  glance: "At a glance",
+  publishers: "Publishers and organisations",
+  themes: "Themes",
+  provenance: "Provenance",
+  provenanceTable: "National catalogues as harvested by the EU portal (validation)",
+  access: "Access and reuse",
+  validation: "Validation readings",
+  comparability: "Comparability notes",
+  notCollected: "Not collected for this portal",
+  notCollectedLead: "These sections are hidden because Phase 1 did not collect the value; the absence is shown, not hidden.",
+  sources: "Sources",
+  compareWithMk: "Compare with North Macedonia",
+  otherPortals: "Other portals",
+  countDefinition: "Count definition",
+  includesNonOpen: "Includes non-open records",
+  comparabilityNote: "Comparability note",
+  unitNote: "Unit",
+  sizeStatusNational: "Units differ between portals; this count is comparable only in scale.",
+  sizeStatusContext: "Shown for context; never ranked against national portals.",
+  euThemesNote: "The EU-portal series is emphasised here; North Macedonia's profile is the reference it is compared with.",
+  provenanceNote: "Harvested copies are validation evidence: timing and filters differ from the national snapshot, so the national canonical count keeps the main position.",
+  notFoundTitle: "Page not found",
+  notFoundBody: "This portal is not part of the OpenDataScope comparison.",
+  notFoundHelp: "The comparison covers the portals below. You can also return to the Overview or open Compare.",
+} as const;
+
+export const INCLUDES_NON_OPEN_TEXT: Record<string, string> = {
+  yes: "Yes: the count includes non-open, restricted or non-public records.",
+  no: "No: the count covers public records only.",
+  unknown: "Not documented by the portal.",
+};

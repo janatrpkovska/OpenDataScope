@@ -1,0 +1,429 @@
+@import "tailwindcss";
+
+/* Visual design system. Light theme only in this release. */
+:root {
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --ink: #172033;
+  --ink-muted: #4b5568;
+  --rule: #d9e1ea;
+  --accent: #2563a6;
+  --accent-hover: #1e4f86;
+  --accent-soft: #e3eef6;
+  --portal-mk: #1e5f8c;
+  --portal-mk-soft: #e4eef4;
+  --portal-national: #6b7785;
+  --portal-eu: #7656a8;
+  --portal-eu-tint: #f4f1f8;
+  --portal-eu-hatch: #b9a8d1;
+  --portal-rs: #6b7785;
+  --fmt-open: var(--portal-mk);
+  --fmt-proprietary: #5a87b2;
+  --fmt-not-mr: #6b7785;
+  --fmt-none: #6b7785;
+  --status-direct: #2f7d62;
+  --status-partial: #9a6419;
+  --status-context: #4b5568;
+  --light-segment: #e8eef4;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-eu: var(--portal-eu);
+  --color-eu-tint: var(--portal-eu-tint);
+  --color-national: var(--portal-national);
+  --color-direct: var(--status-direct);
+  --color-partial: var(--status-partial);
+  --color-context: var(--status-context);
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 26px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  /* Links in text are underlined, so colour is never the only signal (WCAG 1.4.1) */
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  a:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  /* Focus is always visible: 2 px accent outline, 2 px offset */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -48px;
+    z-index: 100;
+    background: var(--surface);
+    color: var(--accent);
+    padding: 8px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+  }
+  .skip-link:focus {
+    top: 12px;
+  }
+
+  /* Frame: at most 1,200 px of content; side padding 16 / 24 / 32 px */
+  .frame {
+    width: 100%;
+    max-width: calc(1200px + 64px);
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 768px) {
+    .frame {
+      padding-inline: 24px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .frame {
+      padding-inline: 32px;
+    }
+  }
+
+  /* Primary navigation: the active item is underlined in the accent colour */
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 0 transparent;
+  }
+  .nav-link:hover {
+    color: var(--accent);
+  }
+  .nav-link-active {
+    color: var(--accent);
+    font-weight: 600;
+    box-shadow: inset 0 -2px 0 var(--accent);
+    border-radius: 0;
+  }
+
+  /* Metric number: Inter, tabular figures, 36/40 desktop, 30/36 mobile */
+  .metric-number {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  @media (min-width: 1024px) {
+    .metric-number {
+      font-size: 36px;
+      line-height: 40px;
+    }
+  }
+
+  /* Segmented radio group (Chart/Table switch, ScaleToggle): native radios, visible focus */
+  .seg {
+    display: inline-flex;
+    border: 1px solid var(--rule);
+    border-radius: 9999px;
+    padding: 2px;
+    background: var(--surface);
+  }
+  .seg label {
+    position: relative;
+    cursor: pointer;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--ink-muted);
+  }
+  .seg label:has(input:checked) {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .seg label:has(input:focus-visible) {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* Chart legend swatches matching the SVG patterns (EU hatched, no format hatched) */
+  .eu-swatch {
+    background: repeating-linear-gradient(45deg, var(--portal-eu) 0 3px, var(--portal-eu-hatch) 3px 5px);
+    border: 1px solid var(--portal-eu);
+  }
+  .none-swatch {
+    background: repeating-linear-gradient(45deg, #ffffff 0 2px, var(--fmt-none) 2px 4px);
+    border: 1px solid var(--fmt-none);
+  }
+  /* Recharts surfaces are focusable (keyboard accessibility layer): keep the focus ring visible */
+  .chart-surface svg text {
+    font-family: var(--font-sans);
+  }
+  /* Value labels drawn on or beside marks never intercept a click meant for the mark */
+  .chart-surface .recharts-label-list,
+  .chart-surface .recharts-label {
+    pointer-events: none;
+  }
+  .chart-surface .recharts-surface:focus-visible,
+  .chart-surface .recharts-wrapper:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* Overview key facts: 5 across at 1280 px+, 3 + 2 at 1024 and on tablet, compact rows on mobile */
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .facts-grid > :nth-child(-n + 3) {
+      grid-column: span 2;
+    }
+    .facts-grid > :nth-child(n + 4) {
+      grid-column: span 3;
+    }
+  }
+  /* North Macedonia column highlight in tables (accent-soft at reduced strength) */
+  .mk-col {
+    background: rgba(228, 238, 244, 0.45);
+  }
+
+  /* Sections: 96 px on desktop, 64 px on mobile */
+  .section {
+    /* the page's scroll-padding-top (80 px) already clears the sticky header */
+    scroll-margin-top: 8px;
+    padding-top: 64px;
+  }
+  @media (min-width: 1024px) {
+    .section {
+      padding-top: 96px;
+    }
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+  }
+
+  .prose-narrow {
+    max-width: 68ch;
+  }
+
+  .missing-value {
+    color: var(--status-context);
+    font-style: italic;
+  }
+
+  /* Data tables */
+  table.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  table.data-table caption {
+    text-align: left;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: var(--ink);
+  }
+  table.data-table th,
+  table.data-table td {
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 10px;
+    vertical-align: top;
+    text-align: left;
+  }
+  table.data-table th {
+    font-weight: 600;
+    color: var(--ink-muted);
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
+  }
+  table.data-table td.num,
+  table.data-table th.num {
+    text-align: right;
+    white-space: nowrap;
+  }
+  table.data-table td,
+  table.data-table th {
+    overflow-wrap: break-word;
+  }
+  /* Tablet: tables stay tables and must fit without page scroll: tighter cells, numbers may wrap */
+  @media (max-width: 1023px) {
+    table.data-table th,
+    table.data-table td {
+      padding: 6px 6px;
+    }
+    table.data-table td.num,
+    table.data-table th.num {
+      white-space: normal;
+    }
+  }
+
+  /* WCAG 2.5.8: links and buttons stacked in the mobile table cards keep a 24 px target */
+  .table-cards dd :is(a, button) {
+    min-height: 24px;
+  }
+  .table-cards dd a:not(.inline-flex) {
+    display: inline-block;
+    line-height: 24px;
+  }
+
+  /* Hatched EU aggregator treatment (colour is never the only signal) */
+  .eu-hatch {
+    background-image: repeating-linear-gradient(45deg, rgba(118, 86, 168, 0.14) 0 6px, transparent 6px 12px);
+  }
+
+  /* Intentional horizontal scroll containers only */
+  .scroll-x {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background:
+      linear-gradient(to right, var(--surface) 30%, transparent),
+      linear-gradient(to left, var(--surface) 30%, transparent) 100% 0,
+      radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.12), transparent),
+      radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.12), transparent) 100% 0;
+    background-repeat: no-repeat;
+    background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll;
+  }
+
+  dialog.drawer::backdrop,
+  dialog.sheet::backdrop {
+    background: rgba(23, 32, 51, 0.35);
+  }
+}
+
+/* A table cell (or sticky row header) that holds an open tooltip is lifted above the later sticky row
+   headers, so the popover is never painted over. */
+@layer utilities {
+  :is(th, td, .sticky):has(> * [aria-expanded="true"] + [role="note"]),
+  :is(th, td, .sticky):has([aria-expanded="true"] + [role="note"]) {
+    z-index: 35;
+  }
+}
+
+/* WCAG 2.2 SC 2.4.11 Focus Not Obscured: elements scrolled into view by keyboard focus stop below the 64 px
+   sticky header (and below the sticky selection counter on the mobile Compare page). */
+html {
+  scroll-padding-top: 80px;
+}
+@media (max-width: 767px) {
+  html:has([data-compare-counter-mobile]) {
+    scroll-padding-top: 120px;
+  }
+}
+
+/* Mobile key facts: one column of compact rows, number left and label right. In the utilities layer so
+   these two-class selectors take precedence over the card's own flex utilities. */
+@layer utilities {
+  @media (max-width: 767px) {
+    .facts-grid .metric-card {
+      display: grid;
+      grid-template-columns: minmax(5.5rem, auto) 1fr;
+      column-gap: 14px;
+      align-items: baseline;
+    }
+    .facts-grid .metric-card > .metric-number {
+      grid-column: 1;
+      grid-row: 1 / span 4;
+      font-size: 26px;
+      line-height: 32px;
+      margin: 0;
+    }
+    .facts-grid .metric-card > * {
+      grid-column: 2;
+    }
+    .facts-grid .metric-card > .mc-foot {
+      padding-top: 4px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    /* no transitions at all: a 0.01 ms transition still delays a style change by a frame */
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

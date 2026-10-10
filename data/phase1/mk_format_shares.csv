@@ -1,0 +1,10 @@
+format_normalised,resource_count,share_of_resources_pct,datasets_offering,share_of_datasets_pct,machine_readable,open_format,snapshot_id
+XLSX,785,48.91,429,55.9,True,False,S2
+CSV,513,31.96,452,58.9,True,True,S2
+XLS,134,8.35,89,11.6,True,False,S2
+PDF,69,4.3,29,3.8,False,False,S2
+(empty),45,2.8,11,1.4,False,False,S2
+DOC/DOCX,27,1.68,27,3.5,False,False,S2
+XML,18,1.12,18,2.3,True,True,S2
+HTML,7,0.44,7,0.9,False,False,S2
+JSON,7,0.44,7,0.9,True,True,S2

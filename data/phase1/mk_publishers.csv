@@ -1,0 +1,133 @@
+org_name,title,local_government,datasets,share_pct,active,snapshot_id
+onwtnha-kapnow,Општина Карпош,True,68,8.9,True,S2
+onwtnha-demnp-xncap,Општина Демир Хисар,True,57,7.4,True,S2
+onwtnha-ra3n-ba6a,Општина Гази Баба,True,52,6.8,True,S2
+mbp,МВР,False,38,4.9,True,S2
+arehunja-3a-admnhnctpaunja-ha-pm,Агенција за администрација на РСМ,False,33,4.3,True,S2
+valandovo,Општина Валандово,True,33,4.3,True,S2
+mxctttt,МЖСПП,False,26,3.4,True,S2
+onwtnha-kpywebo,Општина Крушево,True,25,3.3,True,S2
+bjiada-ha-peny6jinka-makedohnja,Влада на Република Северна Македонија,False,24,3.1,True,S2
+http-konce-gov-mk,Општина Конче,True,24,3.1,True,S2
+onwtnha-kpnba-ttajiahka,Општина Крива Паланка,True,24,3.1,True,S2
+mtctt,"Министерство за социјална политика, демографија и млади",False,23,3.0,True,S2
+onwtnha-demnp-kannja,Општина Демир Капија,True,23,3.0,True,S2
+mnhnctepctbo-3a-qpnhahcnn,Министерство за финансии,False,22,2.9,True,S2
+onwtnha-hobaun,Општина Новаци,True,20,2.6,True,S2
+onwtnha-jio3obo,Општина Лозово,True,19,2.5,True,S2
+opstina-gevgelija,Општина Гевгелија,True,16,2.1,True,S2
+rpad-ckonje,Град Скопје,True,14,1.8,True,S2
+onwtnha-dojpah,Општина Дојран,True,14,1.8,True,S2
+dpxabeh-nhcnektopat-3a-3emjodejictbo,Државен инспекторат за земјоделство,False,13,1.7,True,S2
+jtt-xndpocnctem-3jietobnua,ЈП Хидросистем Злетовица,False,12,1.6,True,S2
+abpm,АВРСМ,False,10,1.3,True,S2
+dpxabeh-na3apeh-nhcnektopat,Државен пазарен инспекторат,False,10,1.3,True,S2
+dpxabeh-nchnektopat-3a-rpadexhnwtbo-n-yp6ahn3am,Државен инспекторат за градежништво и урбанизам,False,9,1.2,True,S2
+ynpaba-3a-jabhn-npnxodn-ha-pcm,Управа за јавни приходи,False,9,1.2,True,S2
+jtt-ctydehhnua-knhebo,ЈП Студенчица Кичево,False,8,1.0,True,S2
+mdt,МДТ,False,8,1.0,True,S2
+ekohomnja,Министерство за економија,False,8,1.0,True,S2
+onwtnha-bntojia,Општина Битола,True,8,1.0,True,S2
+onwtnha-teapue,Општина Теарце,True,8,1.0,True,S2
+bnpo-3a-jabhn-ha6abkn,Биро за јавни набавки,False,7,0.9,True,S2
+jtt-xpcm-nhqppactpyktypa,ЈП ЖРСМ Инфраструктура,False,7,0.9,True,S2
+dnpekunja-3a-padnjaunoha-cnryphoct,Дирекција за радијациона сигурност,False,6,0.8,True,S2
+onwtnha-kymahobo,Општина Куманово,True,6,0.8,True,S2
+onwtnha-tetobo,Општина Тетово,True,6,0.8,True,S2
+arehunja-3a-katactap-ha-hedbnxhoctn,Агенција за катастар на недвижности,False,5,0.7,True,S2
+jtt-cjiyx6eh-bechnk-ha-pm,ЈП Службен весник на РСМ,False,5,0.7,True,S2
+mnhnctepctbo-3a-3emjodejictbo,"Министерство за земјоделство, шумарство и водостопанство",False,5,0.7,True,S2
+makedohcka-qpnjimcka-arehunja,Агенција за филм на Република Северна Македонија,False,4,0.5,True,S2
+arehunja-3a-xpaha-n-betepnhapctbo,Агенција за храна и ветеринарство,False,4,0.5,True,S2
+aott3pp,АФПЗРР,False,4,0.5,True,S2
+dpxabha-komncnja-3a-cnpehybahbe-ha-kopynunjata,Државна комисија за спречување на корупцијата,False,4,0.5,True,S2
+nhcnekunckn-cobet-ha-pm,Инспекциски совет на РСМ,False,4,0.5,True,S2
+ainow,AINOW Society,False,3,0.4,True,S2
+komncnja-3a-3awtnta-ha-npaboto-ha-cjio6odeh-npnctan,Агенција за заштита на правото на слободен пристап до информациите од јавен карактер,False,3,0.4,True,S2
+arehunja-3a-jiekobn-n-mednunhckn-cpedctba,Агенција за лекови и медицински средства,False,3,0.4,True,S2
+aek,АЕК,False,3,0.4,True,S2
+xnbotha-cpednha-ha-rpad-ckonje,Град Скопје - Заштита на животната средина,True,3,0.4,True,S2
+dpxabeh-3abod-3a-ctatnctnka,Државен завод за статистика,False,3,0.4,True,S2
+dyn,Државен Управен Инспекторат,False,3,0.4,True,S2
+dpxabho-npabo6pahntejictbo-ha-pm,Државно правобранителство на РСМ,False,3,0.4,True,S2
+3dpabctbo,Министерство за здравство,False,3,0.4,True,S2
+ttpabda,Министерство за правда,False,3,0.4,True,S2
+arehunja-3a-nottnkhybahbe-ha-pa3bojot-ha-3emjodejictboto,Агенција за поттикнување на развојот на земјоделството,False,2,0.3,True,S2
+dpxabeh-3abod-3a-pebn3nja,Државен завод за ревизија,False,2,0.3,True,S2
+jtt-arpo-6ep3a,ЈП Агро берза,False,2,0.3,True,S2
+jtt-ctpexebo,ЈП Стрежево,False,2,0.3,True,S2
+jttb-jincnhe,ЈПВ Лисиче,False,1,0.1,True,S2
+mnhnctepctbo-3a-ekohomnja-n-tpyd,Министерство за економија и труд,False,1,0.1,True,S2
+mnhnctepctbo-3a-o6pa3obahne-n-hayka,Министерство за образование и наука,False,1,0.1,True,S2
+uapnhcka-ynpaba-ha-peny6jinka-makedohnja,Царинска управа на Република Северна Македонија,False,1,0.1,True,S2
+upm,ЦРСМ,False,1,0.1,True,S2
+arehunja-3a-3awtnta-ha-jinhhnte-nodatoun-ha-pcm,Агенција за заштита на личните податоци на РСМ,False,0,0.0,False,S2
+arehunja-3a-mjiadn-n-cnopt,Агенција за млади и спорт,False,0,0.0,False,S2
+dnpekunja-3a-3awtnta-n-cnacybahbe,Дирекција за заштита и спасување,False,0,0.0,False,S2
+dpxabeh-3abod-3a-nhdyctpncka-conctbehoct,Државен завод за индустриска сопственост,False,0,0.0,False,S2
+dpxabeh-nhcnektopat-3a-wymapctbo-n-jiobctbo,Државен инспекторат за шумарство и ловство,False,0,0.0,False,S2
+dpxabeh-cahntapeh-n-3dpabctbeh-nhcnektopat,Државен санитарен и здравствен инспекторат,False,0,0.0,False,S2
+tetobo-tpahcnopt, ЈП Тетово Транспорт,False,0,0.0,False,S2
+mnhnctepctbo-3a-ehepretnka-pydapctbo-n-mnhepajihn-cypobnhn,"Министерство за енергетика, рударство и минерални суровини",False,0,0.0,False,S2
+mnhnctepctbo-3a-kyjitypa,Министерство за култура и туризам,False,0,0.0,False,S2
+mnhnctepctbo-3a-jiokajiha-camoynpaba,Министерство за локална самоуправа,False,0,0.0,False,S2
+mnhnctepctbo-3a-od6paha-ha-pm,Министерство за одбрана на РСМ,False,0,0.0,False,S2
+mnhnctepctbo-3a-tpahcnopt-n-bpckn,Министерство за транспорт,False,0,0.0,False,S2
+onwtnha-aepodpom,Општина Аеродром,True,0,0.0,False,S2
+onwtnha-bepobo,Општина Берово,True,0,0.0,False,S2
+onwtnha-bordahun,Општина Богданци,True,0,0.0,False,S2
+onwtnha-borobnhbe,Општина Боговиње,True,0,0.0,False,S2
+onwtnha-bocnjiobo,Општина Босилово,True,0,0.0,False,S2
+onwtnha-rophe-ttetpob,Општина Ѓорче Петров,True,0,0.0,False,S2
+onwtnha-de6ap,Општина Дебар,True,0,0.0,False,S2
+onwtnha-de6apua,Општина Дебарца,True,0,0.0,False,S2
+onwtnha-dejihebo,Општина Делчево,True,0,0.0,False,S2
+onwtnha-dojihehn,Општина Долнени,True,0,0.0,False,S2
+onwtnha-xejinho,Општина Желино,True,0,0.0,False,S2
+onwtnha-3ejiehnkobo,Општина Зелениково,True,0,0.0,False,S2
+onwtnha-3phobun,Општина Зрновци,True,0,0.0,False,S2
+onwtnha-njinhdeh,Општина Илинден,True,0,0.0,False,S2
+onwtnha-jeryhobue,Општина Јегуновце,True,0,0.0,False,S2
+onwtnha-kabadapun,Општина Кавадарци,True,0,0.0,False,S2
+onwtnha-kap6nhun,Општина Карбинци,True,0,0.0,False,S2
+onwtnha-kncejia-boda,Општина Кисела Вода,True,0,0.0,False,S2
+onwtnha-knhebo,Општина Кичево,True,0,0.0,False,S2
+onwtnha-kohahn,Општина Кочани,True,0,0.0,False,S2
+onwtnha-kpatobo,Општина Кратово,True,0,0.0,False,S2
+onwtnha-kpnborawtahn,Општина Кривогаштани,True,0,0.0,False,S2
+onwtnha-jinnkobo,Општина Липково,True,0,0.0,False,S2
+onwtnha-mabpobo-n-poctywa,Општина Маврово и Ростуша,True,0,0.0,False,S2
+onwtnha-makedohcka-kamehnua,Општина Македонска Каменица,True,0,0.0,False,S2
+onwtnha-makedohckn-bpod,Општина Македонски Брод,True,0,0.0,False,S2
+onwtnha-mornjia,Општина Могила,True,0,0.0,False,S2
+onwtnha-herotnho,Општина Неготино,True,0,0.0,False,S2
+onwtnha-hobo-cejio,Општина Ново Село,True,0,0.0,False,S2
+onwtnha-oxpnd,Општина Охрид,True,0,0.0,False,S2
+onwtnha-ttetpobeu,Општина Петровец,True,0,0.0,False,S2
+onwtnha-ttexhebo,Општина Пехчево,True,0,0.0,False,S2
+onwtnha-ttjiachnua,Општина Пласница,True,0,0.0,False,S2
+onwtnha-ttpnjien,Општина Прилеп,True,0,0.0,False,S2
+onwtnha-ttpo6nwtnn,Општина Пробиштип,True,0,0.0,False,S2
+onwtnha-padobnw,Општина Радовиш,True,0,0.0,False,S2
+onwtnha-pahkobue,Општина Ранковце,True,0,0.0,False,S2
+onwtnha-peceh,Општина Ресен,True,0,0.0,False,S2
+onwtnha-pocomah,Општина Росоман,True,0,0.0,False,S2
+onwtnha-capaj,Општина Сарај,True,0,0.0,False,S2
+onwtnha-cbetn-hnkojie,Општина Свети Николе,True,0,0.0,False,S2
+onwtnha-connwte,Општина Сопиште,True,0,0.0,False,S2
+onwtnha-ctapo-haropnhahe,Општина Старо Нагоричане,True,0,0.0,False,S2
+onwtnha-ctpyra,Општина Струга,True,0,0.0,False,S2
+onwtnha-ctpymnua,Општина Струмица,True,0,0.0,False,S2
+onwtnha-ctydehnhahn,Општина Студеничани,True,0,0.0,False,S2
+onwtnha-uehtap,Општина Центар,True,0,0.0,False,S2
+onwtnha-uehtap-xyna,Општина Центар Жупа,True,0,0.0,False,S2
+onwtnha-hanp,Општина Чаир,True,0,0.0,False,S2
+onwtnha-hawka,Општина Чашка,True,0,0.0,False,S2
+onwtnha-hewnhobo-o6jiewebo,Општина Чешиново-Облешево,True,0,0.0,False,S2
+onwtnha-hyhep-cahdebo,Општина Чучер Сандево,True,0,0.0,False,S2
+onwtnha-wtnn,Општина Штип,True,0,0.0,False,S2
+onwtnha-wyto-opnapn,Општина Шуто Оризари,True,0,0.0,False,S2
+ynpaba-3a-qpnhahcncko-pa3y3habahbe,Управа за финансиско разузнавање,False,0,0.0,False,S2
+yttpaba-3a-xndpometeopojiowkn-pabotn,УПРАВА ЗА ХИДРОМЕТЕОРОЛОШКИ РАБОТИ,False,0,0.0,False,S2
+fitr,Фонд за иновации и технолошки развој,False,0,0.0,False,S2
+uehtpajieh-pernctap-ha-pcm,Централен Регистар на РСМ,False,0,0.0,False,S2

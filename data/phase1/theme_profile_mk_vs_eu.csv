@@ -1,0 +1,14 @@
+theme_code,theme_name,mk_datasets,mk_pct_of_datasets,mk_pct_of_assignments,eu_records,eu_pct_of_assignments,mk_to_eu_ratio
+GOVE,Government and public sector,312,40.6,38.0,154283,12.1,3.13
+ECON,Economy and finance,171,22.3,20.8,117212,9.2,2.26
+REGI,Regions and cities,73,9.5,8.9,103365,8.1,1.09
+AGRI,"Agriculture, fisheries, forestry and food",56,7.3,6.8,265890,20.9,0.33
+SOCI,Population and society,55,7.2,6.7,104618,8.2,0.81
+EDUC,"Education, culture and sport",52,6.8,6.3,43864,3.5,1.83
+ENVI,Environment,39,5.1,4.8,149165,11.7,0.4
+JUST,"Justice, legal system and public safety",32,4.2,3.9,121484,9.6,0.41
+TRAN,Transport,13,1.7,1.6,46399,3.7,0.43
+HEAL,Health,7,0.9,0.9,33598,2.6,0.32
+ENER,Energy,7,0.9,0.9,12287,1.0,0.88
+TECH,Science and technology,3,0.4,0.4,115613,9.1,0.04
+INTR,International issues,1,0.1,0.1,2082,0.2,0.74

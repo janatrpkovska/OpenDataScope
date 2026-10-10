@@ -1,0 +1,40 @@
+portal_id,metric,visible_value,source_page,reading_time,layer,role,canonical_value,difference,difference_pct,note
+mk,datasets,768,https://data.gov.mk/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,768,0,0.0,
+mk,organisations,133,https://data.gov.mk/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,132,1,0.758,Canonical listed = 132 (S2)
+mk,groups,9,https://data.gov.mk/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,9,0,0.0,
+mk,catalogues,25,https://data.gov.mk/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,Visible label; meaning not documented
+mk,dataset search,screenshot,data.gov.mk dataset search,"2026-10-09 after S2, before 11:13Z",V,validation,,,,Visual validation; no separate value transcribed
+uk,records,59495,https://data.gov.uk/api/action/package_search,"2026-10-09 after S2, before 11:13Z",V,validation,59491,4,0.007,
+uk,organization_list,HTTP 504 Gateway Time-out,https://data.gov.uk/api/action/organization_list,"2026-10-09 after S2, before 11:13Z",V,validation,,,,"Timeout, not missing data; S1 organisation figures kept"
+us,datasets available,590179,https://data.gov/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,590168,11,0.002,
+us,datasets available (earlier),590164,https://data.gov/ (homepage),2026-10-08T05:00:30Z (page update time),earlier,validation,590168,-4,-0.001,
+eu,datasets found,1728300,https://data.europa.eu/data/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,1728623,-323,-0.019,
+eu,datasets (earlier homepage),1726841,https://data.europa.eu/en,2026-10-08 21:46-22:20Z window,earlier,validation,1728623,-1782,-0.103,
+de,datasets (dataset-only search),169172,https://www.govdata.de/ (dataset filter),"2026-10-09 after S2, before 11:13Z",V,validation,169074,98,0.058,
+de,all results (Treffer),169224,https://www.govdata.de/ (all results),"2026-10-09 after S2, before 11:13Z",V,validation,,,,"NEVER a dataset count: = 169,172 datasets + 35 applications + 17 information records"
+de,applications,35,https://www.govdata.de/,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+de,information records,17,https://www.govdata.de/,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+de,"records (earlier reading, type not separated)",169130,https://www.govdata.de/,<= 2026-10-08T22:47Z,earlier,validation,169074,56,0.033,Superseded
+fr,datasets AND APIs (rounded),76K,https://www.data.gouv.fr/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,Combines datasets + APIs; rounded
+fr,files (rounded),393K,https://www.data.gouv.fr/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+fr,organisations (rounded),7K,https://www.data.gouv.fr/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,state: available,20517,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,state: being researched,173,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,state: not available,96,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,state: planned,4,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,publicity: public,18530,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,publicity: non-public,1484,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,publicity: restricted,717,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+nl,state total,20790,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,20791,-1,-0.005,One-record temporal/live discrepancy; cause not documented
+nl,publicity classified total,20731,https://data.overheid.nl/en/datasets,"2026-10-09 after S2, before 11:13Z",V,validation,,,,59 records without a publicity value
+nl,datasets (earlier page reading),19822,https://data.overheid.nl/en/datasets,2026-10-08T22:32:14Z/2026-10-08T22:34:30Z,earlier (R1),validation,20791,-969,-4.661,Earlier reading; superseded by the S2 API snapshot; cause of the gap not documented
+es,datasets (homepage),115940,https://datos.gob.es/,"2026-10-09 after S2, before 11:13Z",V,validation,115980,-40,-0.034,
+es,datasets (catalogue),115940,https://datos.gob.es/en/catalogo,"2026-10-09 after S2, before 11:13Z",V,validation,115980,-40,-0.034,
+es,data services (catalogue),495,https://datos.gob.es/en/catalogo,"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+es,datasets (earlier homepage),115938,https://datos.gob.es/en,2026-10-08 21:46-22:20Z window,earlier,validation,115980,-42,-0.036,
+rs,datasets,3527,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,3509,18,0.513,
+rs,resources,7133,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,7113,20,0.281,
+rs,reuse examples,78,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,78,0,0.0,
+rs,users,2952,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,
+rs,organisations,219,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,219,0,0.0,
+rs,discussions,115,https://data.gov.rs/ (homepage),"2026-10-09 after S2, before 11:13Z",V,validation,,,,
